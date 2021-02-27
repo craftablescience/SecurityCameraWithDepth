@@ -1,11 +1,7 @@
-This is a sample Unity3D Project displaying video from an Mjpg stream.
+This is a project for the 2021 Science Fair.
 
-To use:
+It requires the free Oculus addon from the Unity asset store.
 
-1. Open "Mjpg Viewer/Assets/Scenes/Sample Mjpeg Viewer.unity" in Unity3D.
+To use, set up the two Raspberry Pi camera streaming softwares, then plug in the two IPs into the script properties of both planes.
 
-2. Select the plane acting as the video screen and edit the url parameter to display a live MJPEG stream (you can use these to test with https://febon.blogspot.com/2013/02/public-free-ip-address-for-motion-jpeg.html ). The url should end in .mjpg
-
-3. Play the Sample Mjpeg Viewer scene and wait a few seconds for the MJPEG stream to connect.
-
-Enjoy!
+Then, build and run with the Quest headset connected.

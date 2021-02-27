@@ -8,7 +8,7 @@ public class MjpegTexture : MonoBehaviour
 {
     /// <param name="streamAddress">
     /// Set this to be the network address of the mjpg stream. 
-    /// Example: "http://camera19.city.tarumizu.kagoshima.jp/nphMotionJpeg?Resolution=640x480"
+    /// Example: "http://192.168.1.9:8080/?action=stream"
     /// </param>
     [Tooltip("Set this to be the network address of the mjpg stream. ")]
     public string streamAddress;
